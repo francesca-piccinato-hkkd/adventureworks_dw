@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: adw_production
+    database: ADVENTUREWORKS_FPICCINATO
+    quoting:
+      schema: true
+      identifier: true
+    schema: Production
+    tables:
+      - name: Product
+      - name: ProductCategory
+      - name: ProductSubcategory
